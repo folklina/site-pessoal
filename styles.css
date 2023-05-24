@@ -1,0 +1,139 @@
+body {
+    background-image: url('../img/fundo\ \(1\).jpg');
+    background-color: #312f2f;
+    opacity: ;
+    position:;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; /*ajustar com largura máxima desejada*/
+    padding-left: 20px; /*ajustar com a imagem desejada a esquerda*/
+    padding-right: 20px; /*ajustar com a imagem desejada a direita*/
+}
+
+nav {
+    background-color: #232222;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(169, 162, 162);
+    text-decoration: none;
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 800px;
+}
+
+.banner::before {
+    content: "";
+    background-image: url('../img/Captura\ de\ tela\ 2023-05-18\ 224021.png');
+    background-size:cover;
+    background-position: center;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    opacity: ;
+    text-align: center;
+
+    
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.contact-info .column {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact-info .column img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.contact-adress {
+    padding: 20px;
+}
+
+.adress-map-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.address {
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    max-width: 600px;
+}
+
+footer {
+    background-color: #232222;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 4px;
+    width: 100%;
+
+}
+ 
+h1 {
+}
+
+h2 {
+ font-size: 20px;
+ text-align: center;
+}
+#eu {
+    width: 250px;
+    height: 250px;
+    top: 500px;
+    text-align: center;
+    border-radius: 50%;
+}
+.sobre {
+    text-align: left;
+    background-image: url('../img/');
+    width: 600px;
+    text-align: 
+    color: ;
+    border: 3px solid black;
+    box-shadow: 2px 5px 3px rgb(95, 95, 95);;
+    font-size: medium;
+    opacity: ;
+}
+td {
+  padding: 600;
+}
